@@ -1,39 +1,36 @@
-# 个人网站
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-面向招聘者和面试官的个人展示网站，用于介绍个人经历和项目案例。通过分阶段开发，学习需求分析、前端开发、Git 版本管理、测试与部署，并逐步扩展后端和数据库功能。
+## Getting Started
 
-## 第一版范围
+First, run the development server:
 
-- 首页：个人简介、教育经历、实习经历、获奖情况、项目入口和联系方式。
-- 项目详情页：以品牌日报自动化工具为首个案例，展示项目背景、实际参与、处理流程、问题与解决过程，以及有依据的成果。
-- 响应式布局：适配电脑和手机浏览。
-- 部署上线：提供可访问的网站链接。
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-首版计划将内容保存在项目文件中，首页与详情页共用同一份项目数据，通过静态构建生成可发布的网站文件。
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 已确定的技术
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-| 用途               | 技术       |
-| ------------------ | ---------- |
-| 界面组件           | React      |
-| 项目框架与页面路由 | Next.js    |
-| 开发语言           | TypeScript |
-| 页面样式           | 原生 CSS   |
-| 本地版本管理       | Git        |
-| 远程仓库托管计划   | GitHub     |
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 当前进度
+## Learn More
 
-- 已确定项目目标、主要访问者和第一版页面范围。
-- 已确定前端技术方案，并整理项目数据字段草稿。
-- 已创建独立项目目录，并初始化 main 分支。
-- 当前处于项目规划与 Git 基础练习阶段。
-- 应用代码、页面开发、测试和部署尚未开始。
+To learn more about Next.js, take a look at the following resources:
 
-## 后续迭代
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-逐步评估数据库、内容管理、管理员登录、博客、测试和自动化部署等功能。后端语言与框架、数据库、ORM 及部署平台仍待讨论，根据实际需求决定。
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 学习方式
+## Deploy on Vercel
 
-按小任务推进，由本人练习、运行和反馈，再检查结果。每次有意义的修改都检查 Git 状态和差异，逐步练习提交与推送，并记录学习内容、问题和验证结果。
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
