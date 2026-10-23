@@ -30,3 +30,7 @@ body {
   color: var(--foreground);
   font-size: 40px;
 }
+
+.section-title {
+  font-size: 28px;
+}

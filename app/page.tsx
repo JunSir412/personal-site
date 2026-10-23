@@ -9,6 +9,14 @@ export default function Home() {
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             聚焦 AI 应用与 Agent 开发，探索如何将大模型用于具体业务场景。
           </p>
+          <section>
+            <h2 className="section-title">关于我</h2>
+            <p>
+              我曾借助 AI 工具开发品牌日报自动化工具，
+              梳理数据源与日报字段的对应关系及部分计算规则，并与人工报表逐项核对数字和格式。
+              该工具现已在公司使用。
+            </p>
+          </section>
         </div>
       </main>
     </div>
