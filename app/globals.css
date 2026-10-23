@@ -34,3 +34,21 @@ body {
 .section-title {
   font-size: 28px;
 }
+
+.projects {
+  width: 100%;
+}
+
+.project-card {
+  margin-top: 16px;
+}
+
+.project-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.project-card p {
+  margin-top: 8px;
+  line-height: 1.7;
+}

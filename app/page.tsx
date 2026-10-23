@@ -17,6 +17,16 @@ export default function Home() {
               该工具现已在公司使用。
             </p>
           </section>
+          <section className="projects">
+            <h2 className="section-title">项目经历</h2>
+            <article className="project-card">
+              <h3>品牌日报自动化工具</h3>
+              <p>
+                读取上传的数据源文件，根据字段对应关系和部分计算规则填写日报；
+                与人工报表逐项核对数字和格式。工具现已在公司使用。
+              </p>
+            </article>
+          </section>
         </div>
       </main>
     </div>
